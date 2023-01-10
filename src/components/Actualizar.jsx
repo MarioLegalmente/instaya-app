@@ -32,20 +32,20 @@ export default function Actualizar(){
                     <div className="row">
                         <div className="mb-3 col">
                             <label htmlFor="ancho" className="form-label">Ancho</label>
-                            <input type="number" className="form-control" id="ancho" name="ancho" required min="0" />
-                            <div className="form-text">Valor en centimetros (cm)</div>
+                            <input type="number" className="form-control" id="ancho" name="ancho"required min="0"/>
+                            <div className="form-text">Valor en centímetros (cm)</div>
                         </div>
                         <div className="mb-3 col">
                             <label htmlFor="largo" className="form-label">Largo</label>
                             <input type="number" className="form-control" id="largo" name="largo" required min="0"
                                 aria-describedby="largoHelp" />
-                            <div id="largoHelp" className="form-text">Valor en centimetros (cm)</div>
+                            <div id="largoHelp" className="form-text">Valor en centímetros (cm)</div>
                         </div>
                         <div className="mb-3 col">
                             <label htmlFor="alto" className="form-label">Alto</label>
                             <input type="number" className="form-control" id="alto" name="alto" required min="0"
                                 aria-describedby="altoHelp" />
-                            <div id="altoHelp" className="form-text">Valor en centimetros (cm)</div>
+                            <div id="altoHelp" className="form-text">Valor en centímetros (cm)</div>
                         </div>
                         <div className="mb-3 col">
                             <label htmlFor="peso" className="form-label">Peso</label>
@@ -94,7 +94,7 @@ export default function Actualizar(){
 
                     <div className="d-grid col-2 mx-auto">
                         <div className="mb-3">
-                            <button type="submit" className="btn btn-secondary">Actualizar Órden</button>
+                            <button type="submit" className="btn btn-secondary">Actualizar orden</button>
                         </div>
                     </div>
 

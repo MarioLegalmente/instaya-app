@@ -46,18 +46,18 @@ export default function Registro() {
     return (
         <div className="container">
             <h3 className="fw-bold text-center mt-5 text-uppercase p-3 col-sm-12 col-md-7 row justify-content-end">Registro usuarios</h3>
-            <div className="row justify-content-center align-items-center" style={{ height: "500px" }}>
+            <div className="row justify-content-center align-items-center" style={{height:"500px"}}>
                 <div className="bg-light col-sm-12 col-md-6 border border-white p-5">
                     <form onSubmit={handleRegister}>
                         <div className="mb-3">
                             <label htmlFor="nombreCompleto" className="form-label">Nombre</label>
                             <input type="text" className="form-control" id="nombreCompleto"
-                                placeholder="Fulanito" />
+                                placeholder="Onenombre" />
                         </div>
                         <div className="mb-3">
-                            <label htmlFor="usuario" className="form-label">Usurio</label>
+                            <label htmlFor="usuario" className="form-label">Usuario</label>
                             <input type="text" className="form-control" id="usuario"
-                                placeholder="InstaYa" />
+                                placeholder="instaya" />
                         </div>
                         <div className="mb-3">
                             <label htmlFor="password" className="form-label">Contraseña</label>
